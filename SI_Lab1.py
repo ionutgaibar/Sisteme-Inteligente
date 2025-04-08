@@ -1,4 +1,4 @@
-def save_metrics_to_file(filename, accuracy, precision, recall, mse, mae):
+SI_def save_metrics_to_file(filename, accuracy, precision, recall, mse, mae):
     with open(filename, 'w') as file:
         file.write(f'Accuracy: {accuracy:.2f}\n')
         file.write(f'Precision: {precision:.2f}\n')
